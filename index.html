@@ -816,7 +816,7 @@ tfoot td { padding: 12px; border-bottom: none; border-top: 2px solid var(--borde
         var ws = XLSX.utils.json_to_sheet(exp);
         ws["!cols"] = [{wch:35},{wch:18},{wch:18},{wch:14},{wch:18},{wch:16},{wch:20},{wch:20},{wch:30}];
         var wb = XLSX.utils.book_new(); XLSX.utils.book_append_sheet(wb, ws, "Part Demand");
-        XLSX.writeFile(wb, "part_demand_data.xlsx"); showToast("File Excel Part Demand berhasil diunduh.", "success");
+        XLSX.writeFile(wb, "SJOB_data.xlsx"); showToast("File Excel Part Demand berhasil diunduh.", "success");
     });
 
     // ========== EXPORT PDF TAB 3 ==========
